@@ -2,7 +2,6 @@ use crate::income::IncomeBracket;
 
 pub fn get_nz_tax () -> Vec<IncomeBracket> {
   return vec![
-    IncomeBracket::new(),
       IncomeBracket {
           from: 0.0,
           to: Some(14000.0),
